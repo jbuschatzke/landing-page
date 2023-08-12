@@ -11,8 +11,9 @@ img{
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding-top: 24px;
 }
 
 .header-title{
@@ -32,7 +33,6 @@ img{
     margin: 0;
     display: flex;
     gap: 24px;
-    margin-right: 24px;
 }
 
 .footer{
@@ -46,17 +46,27 @@ img{
     background-color: #1F2937;
     display: flex;
     flex-wrap: wrap;
-    padding: 64px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    padding-top: 64px;
 }
 
 .preview-title{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    max-width: 400px;
 }
 
 .preview-left > p{
     color: #E5E7EB;
+    max-width: 400px;
+}
+
+.preview-left > button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 20px;
 }
