@@ -4,10 +4,6 @@ body{
     flex-direction: column;
 }
 
-img{
-    max-width: 20%;
-}
-
 .header{
     background-color: #1F2937;
     display: flex;
@@ -71,12 +67,24 @@ img{
     padding: 6px 20px;
 }
 
+.preview > img{
+    width: 300px;
+    height: 300px;
+}
+
 .info{
     text-align: center;
+    margin-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 .info-container{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .info-title{
@@ -84,4 +92,18 @@ img{
     font-weight: bolder;
     color: #1F2937;
     margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    margin-top: 5px;
+}
+
+.item > img{
+    width: 200px;
+    height: 200px;
 }
