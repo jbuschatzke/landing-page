@@ -154,11 +154,12 @@ body{
 .signup-area{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
     background-color: #3882F6;
     border-radius: 15px;
-    padding: 20px 40px;
-    gap: 100px;
+    padding: 28px 5%;
+    gap: 20px;
 }
 
 .signup-button{
